@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    color: #2B2E4A;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.notifi {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.notifi.visible {
+    display: flex;
+}
+
+.notifi .content {
+    background-color: white;
+    padding: 20px;
+    margin: 0 14%;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.notifi .content p {
+    font-weight: 600;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.add-player {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.add-player.show {
+    display: flex;
+}
+
+.add-player .content {
+    background-color: white;
+    padding: 20px;
+    margin: 0 14%;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-player .content .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.add-player .content p {
+    margin-top: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-player .content input {
+    outline: none;
+    border: 1px solid #00000081;
+    border-radius: 8px;
+    padding: 12px 14px;
+    width: 100%;
+}
+
+.container {
+    background-color: #C64756;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 14%;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s all ease;
+    /* max-width: 400px; */
+}
+
+.container .top,
+.container .bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .logo {
+    height: 56px;
+    margin-bottom: 28px;
+    max-width: 400px;
+}
+
+.container .box {
+    background-color: white;
+    border-radius: 8px;
+    min-height: 356px;
+    position: relative;
+    box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.container .box .title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.container .box .hr {
+    width: 100%;
+    height: 1px;
+    background: rgba(43, 46, 74, 0.1);
+}
+
+.container .box .players {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+
+.container .box .players li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.container .box .players li h3 {
+    cursor: pointer;
+}
+
+.container .box .question {
+    display: none;
+}
+
+.container .btns {
+    display: grid;
+    grid-template-columns: 1fr 51px;
+    column-gap: 14px;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.container .btns.game {
+    display: none;
+}
+
+.container .btns .btn {
+    border-radius: 6px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.container .btns .btn.main {
+    color: white;
+    background-color: #2B2E4A;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container .btns .btn.sec {
+    width: 51px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container .btns .btn.sec img {
+    height: 26px;
+}
+
+.container .version {
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+}
+
+.container .hardkor {
+    display: none;
+}
+
+/* CONTAINER GAME */
+
+.container.game .box .title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container.game .box .question {
+    display: grid;
+    width: 100%;
+    height: calc(100% - 58px);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    padding-bottom: 80px;
+}
+
+.container.game .box .question-text {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 40px;
+}
+
+.container.game .players {
+    display: none;
+}
+
+.container.game .btns {
+    display: none;
+}
+
+.container.game .btns.game {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.container.game .version {
+    display: none;
+}
+
+.container.game.wszyscy {
+    background-color: #867AE9;
+}
+
+/* GAME HARDKOR */
+
+.container.game.hardkor .hardkor {
+    font-weight: 800;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container.game.hardkor {
+    background-color: #25262E;
+}

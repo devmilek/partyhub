@@ -1,0 +1,210 @@
+[
+    {
+        "pytanie": "Francuski pocałunek z osobą, która siedzi po lewej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Wymień się jedną częścią garderoby z osobą po prawej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Do końca gry mów czułe słówka osobie po lewej",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Francuski pocałunek z osobą, która siedzi po prawej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Leż na brzuchu osoby po prawej stronie przez 5 minut",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Osoba po twojej lewej stronie robi ci malinkę",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Pocałuj osobe naprzeciwko, tak jakby to był wasz pierwszy pocałunek",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Pocałuj w szyje osobe po twojej lewej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Pocałuj w szyje osobe po twojej prawej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Pocałuj w usta osobę, która siedzi naprzeciwko ciebie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Pojeździj palcem po ciele osoby po twojej lewej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Wypij szota z osoby naprzeciwko.",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Przekaż cukierka osobie po twojej lewej używajac tylko ust",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Przez 5 minut udawaj, że podobają ci się osoby tej samej płci co ty",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Przytul się do klatki piersiowej osoby po twojej prawej stronie",
+        "hardkor": true
+    },
+    {
+        "pytanie": "Ugryź w język osobe po lewej",
+        "hardkor": true
+    },
+    
+
+
+
+
+    {
+        "pytanie": "Gracze, którzy kiedykolwiek zostali ukarani za łamanie przepisów drogowych, piją",
+        "all": true
+    },
+    {
+        "pytanie": "Góry czy morze? Mniejszość pije",
+        "all": true
+    },
+    {
+        "pytanie": "Każdy, kto się dziś masturbował, pije",
+        "all": true
+    },
+    {
+        "pytanie": "Filmy, które zaczynają się na literę J, przegrany pije",
+        "all": true
+    },
+    {
+        "pytanie": "Hot-dog czy zapiekanka? Mniejszość pije.",
+        "all": true
+    },
+    {
+        "pytanie": "Gracz, który ostatnio opublikował zdjęcie na Instagramie, pije.",
+        "all": true
+    },
+    {
+        "pytanie": "Pije gospodarz.",
+        "all": true
+    },
+    {
+        "pytanie": "Zróbcie sobie zdjęcie grupowe.",
+        "all": true
+    },
+    {
+        "pytanie": "MC czy KFC? mniejszość pije.",
+        "all": true
+    },
+    {
+        "pytanie": "Duża czy mała impreza? Mniejszość pije",
+        "all": true
+    },
+    {
+        "pytanie": "Netflix czy YouTube?? Mniejszość pije",
+        "all": true
+    },
+    {
+        "pytanie": "Wanna czy prysznic? Mniejszość pije",
+        "all": true
+    },
+    {
+        "pytanie": "Piwo czy wódka? Mniejszość pije",
+        "all": true
+    },
+    {
+        "pytanie": "Zima czy lato? Mniejszość pije",
+        "all": true
+    },
+    
+
+
+
+
+    {
+        "pytanie": "Pijesz, jeśli kiedykolwiek zostałeś wyrzucony z klubu"
+    },
+    {
+        "pytanie": "Pijesz 2 łyki z drinka osoby naprzeciwko."
+    },
+    {
+        "pytanie": "Wybierz osobę, która napije się twojego drinka"
+    },
+    {
+        "pytanie": "Z iloma osobami się całowałeś?"
+    },
+    {
+        "pytanie": "Napisz do pierwszej aktywnej osoby, że chciałbyś być teraz przy niej."
+    },
+    {
+        "pytanie": "Jaka była najgorsza plotka, jaką o sobie usłyszałeś."
+    },
+    {
+        "pytanie": "Opowiedz najlepsze wspomnienie z osobą z naprzeciwka."
+    },
+    {
+        "pytanie": "Opowiedz najlepsze wspomnienie z osobą po lewej."
+    },
+    {
+        "pytanie": "Czy miałeś kiedyś sen erotyczny, w którym pojawił się ktoś z tej rundy?"
+    },
+    {
+        "pytanie": "Pokaz swoje wstydliwe zdjęcie uczestnikom gry"
+    },
+    {
+        "pytanie": "Grupa zadaje ci pytanie, na które musisz szczerze odpowiedzieć"
+    },
+    {
+        "pytanie": "Każdy gracz mówi jedną wadę na twój temat."
+    },
+    {
+        "pytanie": "Każdy gracz mówi jedną zaletę na twój temat."
+    },
+    {
+        "pytanie": "Wykonaj zadanie poprzedniego gracza."
+    },
+    {
+        "pytanie": "Czy kiedykolwiek byłeś zakochany w jednym z obecnych?"
+    },
+    {
+        "pytanie": "Co jest twoją najlepszą cechą?"
+    },
+    {
+        "pytanie": "Co jest twoją najgorszą cechą?"
+    },
+    {
+        "pytanie": "Gracze mogą zadać ci jedno pytanie, na które musisz odpowiedzieć."
+    },
+    {
+        "pytanie": "Naśladuj jakąś osobę, którą wybiera reszta grupy"
+    },
+    {
+        "pytanie": "Naśladuj osobę naprzeciwko"
+    },
+    {
+        "pytanie": "Weź na barana osobę po prawej i trzymaj przez pół minuty"
+    },
+    {
+        "pytanie": "Zrób grupowe zdjęcie w lustrze"
+    },
+    {
+        "pytanie": "Udawaj jakąś osobe, reszta grupy musi zagnąć kto to"
+    },
+    {
+        "pytanie": "Udawaj jakąś osobe, reszta grupy musi zagnąć kto to"
+    },
+    {
+        "pytanie": "Pocałuj w czoło osobe po prawej stronie"
+    },
+    {
+        "pytanie": "Jaki jest Twój najdziwniejszy nawyk?"
+    }
+]
