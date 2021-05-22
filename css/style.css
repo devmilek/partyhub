@@ -37,6 +37,7 @@ body {
     width: 100%;
     border-radius: 6px;
     text-align: center;
+    max-width: 400px;
 }
 
 .notifi .content p {
@@ -70,6 +71,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .add-player .content .row {
