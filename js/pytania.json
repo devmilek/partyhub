@@ -63,6 +63,10 @@
         "pytanie": "Ugryź w język osobe po lewej",
         "hardkor": true
     },
+    {
+        "pytanie": "Pochwal się historia przeglądarki lub napij się",
+        "hardkor": true
+    },
     
 
 
@@ -124,7 +128,22 @@
         "pytanie": "Zima czy lato? Mniejszość pije",
         "all": true
     },
-    
+    {
+        "pytanie": "Państa, które zaczynają się na litere A. Przegrany pije",
+        "all": true
+    },
+    {
+        "pytanie": "Piosenkarze na litere L. Przegrany pije",
+        "all": true
+    },
+    {
+        "pytanie": "Wskażcie osobę, która ma najsłabszą głowę. Przegrany pije",
+        "all": true
+    },
+    {
+        "pytanie": "Ostatnia osoba, która wstanie i obróci się wokół własnej osi, pije",
+        "all": true
+    },
 
 
 
@@ -206,5 +225,11 @@
     },
     {
         "pytanie": "Jaki jest Twój najdziwniejszy nawyk?"
+    },
+    {
+        "pytanie": "Wyznacz osobę, która ma się napić"
+    },
+    {
+        "pytanie": "Napij się z osobą naprzeciwko"
     }
 ]

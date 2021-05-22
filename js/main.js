@@ -91,6 +91,11 @@ function losujPytanie() {
         $('.container').removeClass('hardkor');
         $('.title').html("WSZYSCY");
         document.querySelector('.question-text').innerHTML = pytania[liczba].pytanie;
+        if(numer_gracza <= 0) {
+            numer_gracza = players_list.length;
+        } else {
+            numer_gracza--;
+        }
     } else {
         document.querySelector('.question-text').innerHTML = pytania[liczba].pytanie;
         $('.container').removeClass('hardkor');
@@ -101,7 +106,7 @@ function losujPytanie() {
 function losujGracza() {
     document.querySelector('.title').innerHTML = players_list[numer_gracza];
     numer_gracza++;
-    if(numer_gracza == players_list.length) {
+    if(numer_gracza >= players_list.length) {
         numer_gracza = 0;
     }
 }
