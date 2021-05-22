@@ -13,6 +13,8 @@ body {
     justify-content: center;
     width: 100%;
     user-select: none;
+    height: 100%;
+    overflow: hidden;
 }
 
 .notifi {
