@@ -13,8 +13,6 @@ body {
     justify-content: center;
     width: 100%;
     user-select: none;
-    height: 100%;
-    overflow: hidden;
 }
 
 .notifi {
@@ -149,6 +147,11 @@ body {
 .container .box .players {
     list-style-type: none;
     padding: 20px 20px;
+}
+
+.container .box .players h4 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 .container .box .players li {

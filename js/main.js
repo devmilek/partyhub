@@ -1,4 +1,4 @@
-var players_list = [];
+var players_list = ['hania', 'marta'];
 
 html_players = document.querySelector('.players');
 html_add_player = $('.add-player');
@@ -16,9 +16,13 @@ $(document).ready(function() {
 
 function odswiezGraczy() {
     html_players.innerHTML = "";
-    for (let index = 0; index < players_list.length; index++) {
-        inner_player = '<li><p>'+ players_list[index] +'</p><h3 onclick="usunGracza('+index+')">-</h3></li>';
-        html_players.innerHTML += inner_player;
+    if(players_list == "") {
+        html_players.innerHTML = '<h4>Dodaj graczy</h4>';
+    } else {
+        for (let index = 0; index < players_list.length; index++) {
+            inner_player = '<li><p>'+ players_list[index] +'</p><h3 onclick="usunGracza('+index+')">-</h3></li>';
+            html_players.innerHTML += inner_player;
+        }
     }
 }
 
@@ -26,7 +30,8 @@ function odswiezGraczy() {
 
 $('.add-player-btn').click(function() {
     html_add_player.toggleClass('show');
-    document.querySelector("#add-player-input").autofocus;
+    // document.querySelector("#add-player-input").autofocus;
+    $('#add-player-input').focus();
 });
 
 $('.add-player-close').click(function() {
