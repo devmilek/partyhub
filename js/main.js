@@ -1,4 +1,4 @@
-var players_list = ['hania', 'marta'];
+var players_list = [];
 
 html_players = document.querySelector('.players');
 html_add_player = $('.add-player');
