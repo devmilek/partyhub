@@ -92,7 +92,7 @@ function losujPytanie() {
         $('.title').html("WSZYSCY");
         document.querySelector('.question-text').innerHTML = pytania[liczba].pytanie;
         if(numer_gracza <= 0) {
-            numer_gracza = players_list.length;
+            numer_gracza = 0;
         } else {
             numer_gracza--;
         }

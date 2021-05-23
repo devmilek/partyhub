@@ -224,6 +224,12 @@ body {
 
 /* CONTAINER GAME */
 
+.container.game .box {
+    display: grid;
+    grid-template-rows: 58px 1fr;
+    align-items: center;
+}
+
 .container.game .box .title {
     font-size: 18px;
     font-weight: normal;
@@ -232,20 +238,15 @@ body {
 .container.game .box .question {
     display: grid;
     width: 100%;
-    height: calc(100% - 58px);
     text-align: center;
     align-items: center;
     justify-content: center;
     padding: 0 20px;
-    padding-bottom: 80px;
 }
 
 .container.game .box .question-text {
     font-weight: bold;
     font-size: 22px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 40px;
 }
 
 .container.game .players {
