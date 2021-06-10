@@ -67,6 +67,7 @@
         "pytanie": "Pochwal się historia przeglądarki lub napij się",
         "hardkor": true
     },
+
     
 
 
@@ -144,12 +145,88 @@
         "pytanie": "Ostatnia osoba, która wstanie i obróci się wokół własnej osi, pije",
         "all": true
     },
+    {
+        "pytanie": "Kto jest najbardziej nieogranięty? Ta osoba pije",
+        "all": true
+    },
+    {
+        "pytanie": "Osoba która najwięcej narzeka, pije",
+        "all": true
+    },
+    {
+        "pytanie": "Dziewczyny decydują co robią chłopaki",
+        "all": true
+    },
+    {
+        "pytanie": "Chłopacy decydują co robią dziewczyny",
+        "all": true
+    },
+    {
+        "pytanie": "Wszyscy zamieniają się miejscami",
+        "all": true
+    },
+    {
+        "pytanie": "Pije osoba, która się zawsze spóznia",
+        "all": true
+    },
+    {
+        "pytanie": "Piją mężczyźni",
+        "all": true
+    },
+    {
+        "pytanie": "Piją kobiety",
+        "all": true
+    },
+    {
+        "pytanie": "Osoba, która ma najmniej % baterii pije",
+        "all": true
+    },
+    {
+        "pytanie": "Piją osoby, które mają tatuaż",
+        "all": true
+    },
 
 
 
 
     {
         "pytanie": "Pijesz, jeśli kiedykolwiek zostałeś wyrzucony z klubu"
+    },
+    {
+        "pytanie": "Shot bez użycia rąk"
+    },
+    {
+        "pytanie": "Wymyśl jakąś zasade"
+    },
+    {
+        "pytanie": "Grupa decyduje kogo całujesz"
+    },
+    {
+        "pytanie": "Przytul wszystkich graczy"
+    },
+    {
+        "pytanie": "Najgraj tiktoka"
+    },
+    {
+        "pytanie": "Opowiedz nieśmieszny żart, kto sie zaśmieje ten pije"
+    },
+    {
+        "pytanie": "Wymyśl najgorszy toast i się napijcie"
+    },
+    {
+        "pytanie": "Grupa wybiera 3 osoby, ty decydujesz- fuck, merry, kill"
+    },
+    {
+        "pytanie": "Grupa wybiera 3 osoby, ty decydujesz- fuck, merry, kill"
+    },
+    {
+        "pytanie": "Powiedz każdemu z graczy jego zalete"
+    },
+    {
+        "pytanie": "Wybierz dwie osoby, które się całują"
+    },
+    {
+        "pytanie": "Zdejmuj komuś koszulke stopami"
     },
     {
         "pytanie": "Pijesz 2 łyki z drinka osoby naprzeciwko."
